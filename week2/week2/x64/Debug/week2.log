@@ -1,0 +1,4 @@
+﻿  text.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week2\week2\text.cpp(13,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week2\week2\text.cpp(51,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  week2.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week2\x64\Debug\week2.exe

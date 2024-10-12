@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MoveZeros.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="PlusOne.cpp" />

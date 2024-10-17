@@ -19,7 +19,37 @@ bool toSwap(pair<string, unsigned>& firstStudent, pair<string, unsigned>& second
 	return firstStudent.second < secondStudent.second || (firstStudent.second == secondStudent.second && simple_strcmp(firstStudent.first.c_str(), secondStudent.first.c_str()) > 0);
 }
 
-int main() {
+
+int partition(vector<pair<string,unsigned>>& arr, int low, int high)
+{
+	pair<string, unsigned> pivot = arr[high];
+	int i = low;           // Index of the smaller element
+
+	for (int j = low; j < high; j++)
+	{
+		if (toSwap(pivot, arr[j]))
+		{
+			swap(arr[i], arr[j]);
+			i++;
+		}
+	}
+
+	swap(arr[i], arr[high]);
+	return i;
+}
+
+void quick_sort(vector<pair<string,unsigned>>& arr, int low, int high)
+{
+	if (low < high)
+	{
+		int pi = partition(arr, low, high);
+
+		quick_sort(arr, low, pi - 1);
+		quick_sort(arr, pi + 1, high);
+	}
+}
+
+void thirdTask(){
 	unsigned n;
 	cin >> n;
 
@@ -35,19 +65,7 @@ int main() {
 	for (size_t i = 0; i < n; i++)
 		cin >> students[i].second;
 
-	for (size_t i = 1; i < students.size(); i++)
-	{
-		pair<string, unsigned> currentStudent = students[i];
-		int indexToPut = i-1;
-		
-		while (indexToPut >=0 && toSwap(students[indexToPut], currentStudent))
-		{
-			students[indexToPut+1] = students[indexToPut];
-			indexToPut--;
-		}
-
-		students[indexToPut+1] = currentStudent;
-	}
+	quick_sort(students, 0, n-1);
 
 	for (size_t i = 0; i < n; i++)
 		cout << students[i].first << ' ' << students[i].second << endl;

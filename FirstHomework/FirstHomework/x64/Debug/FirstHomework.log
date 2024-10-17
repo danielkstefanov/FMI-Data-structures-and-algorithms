@@ -1,3 +1,2 @@
 ﻿  thirdTask.cpp
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\FirstHomework\FirstHomework\thirdTask.cpp(33,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   FirstHomework.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\FirstHomework\x64\Debug\FirstHomework.exe

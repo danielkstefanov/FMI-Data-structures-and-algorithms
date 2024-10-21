@@ -130,6 +130,7 @@
     <ClCompile Include="bubbleSort.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicateII.cpp" />
+    <ClCompile Include="CountOfSmallerNumbersAfterSelf.cpp" />
     <ClCompile Include="insertionSort.cpp" />
     <ClCompile Include="MajorityElementII.cpp" />
     <ClCompile Include="MaximumIceCreamBars.cpp" />

@@ -48,5 +48,8 @@
     <ClCompile Include="quickSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CountOfSmallerNumbersAfterSelf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

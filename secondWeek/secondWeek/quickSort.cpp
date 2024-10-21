@@ -16,6 +16,7 @@ int partition(std::vector<int>& arr, int start, int end)
 	}
 
 	std::swap(arr[i],arr[end]);
+	return i;
 }
 
 void quickSort(std::vector<int>& arr, int start, int end) 

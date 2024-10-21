@@ -127,12 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bubbleSort.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicateII.cpp" />
+    <ClCompile Include="insertionSort.cpp" />
     <ClCompile Include="MajorityElementII.cpp" />
     <ClCompile Include="MaximumIceCreamBars.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
+    <ClCompile Include="mergeSort.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
+    <ClCompile Include="quickSort.cpp" />
+    <ClCompile Include="selectionSort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

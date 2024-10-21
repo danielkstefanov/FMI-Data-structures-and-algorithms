@@ -1,2 +1,7 @@
-﻿  secondWeek.cpp
+﻿  bubbleSort.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\secondWeek\secondWeek\bubbleSort.cpp(5,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\secondWeek\secondWeek\bubbleSort.cpp(17,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  MajorityElementII.cpp
+  MergeIntervals.cpp
+  Generating Code...
   secondWeek.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\secondWeek\x64\Debug\secondWeek.exe

@@ -61,9 +61,3 @@ vector<int> countSmaller(vector<int>& nums) {
 
     return counts;
 }
-
-int main()
-{
-    vector<int> arr{5, 2, 6, 1};
-    countSmaller(arr);
-}

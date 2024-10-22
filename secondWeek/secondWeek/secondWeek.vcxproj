@@ -139,6 +139,7 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="quickSort.cpp" />
     <ClCompile Include="selectionSort.cpp" />
+    <ClCompile Include="tasksForExam.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

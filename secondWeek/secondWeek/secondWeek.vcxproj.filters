@@ -51,5 +51,8 @@
     <ClCompile Include="CountOfSmallerNumbersAfterSelf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tasksForExam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,0 +1,3 @@
+﻿  thirdWeek.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week3\thirdWeek\thirdWeek.cpp(11,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  thirdWeek.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week3\x64\Debug\thirdWeek.exe

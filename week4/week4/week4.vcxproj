@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="findMiddleOfLinkedList.cpp" />
+    <ClCompile Include="insertionSortLinkedList.cpp" />
+    <ClCompile Include="removeElementFromLinkedList.cpp" />
     <ClCompile Include="week4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

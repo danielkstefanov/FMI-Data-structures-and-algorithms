@@ -128,12 +128,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="findMiddleOfLinkedList.cpp" />
+    <ClCompile Include="flattenLinkListWithChildren.cpp" />
     <ClCompile Include="insertionSortLinkedList.cpp" />
+    <ClCompile Include="mergeKSortedLists.cpp" />
+    <ClCompile Include="mergeTwoSortedLists.cpp" />
     <ClCompile Include="removeElementFromLinkedList.cpp" />
+    <ClCompile Include="reverseLinkedList.cpp" />
+    <ClCompile Include="reverseLinkedList2.cpp" />
+    <ClCompile Include="utils.cpp" />
     <ClCompile Include="week4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,3 @@
+﻿  fifthHomework.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\fifthHomework\fifthHomework\fifthHomework.cpp(65,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  fifthHomework.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\fifthHomework\x64\Debug\fifthHomework.exe

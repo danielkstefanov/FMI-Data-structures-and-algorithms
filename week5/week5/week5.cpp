@@ -4,54 +4,33 @@
 
 using namespace std;
 
-vector<int> asteroidCollision(vector<int>& asteroids) {
-    stack<int> answer;
+int findUnsortedSubarray(vector<int>& nums) {
 
-    for (int i = 0; i < asteroids.size(); i++) {
-        int current = asteroids[i];
+    int startIndex = 0;
+    int endIndex = 0;
 
-        if (current < 0) {
+    stack<int> max, min;
+    max.push(-1000000);
+    min.push(1000000);
 
-            bool toPush = true;
-            while (answer.size() > 0 && answer.top() > 0) {
-                if (answer.top() < -current) {
-                    answer.pop();
-                }
-                else if (answer.top() == -current)
-                {
-                    answer.pop();
-                    toPush = false;
-                    break;
-                }
-                else {
-                    break;
-                }
-            }
+    for (size_t i = 0; i < nums.size(); i++)
+    {
+        if (nums[i] < max.top())
+            max.push(nums[i]);
+        else
+            endIndex = i;
 
-            if (((answer.size() != 0 && answer.top() < 0) ||
-                answer.size() == 0) && toPush) {
-                answer.push(current);
-            }
-        }
-        else {
-            answer.push(current);
-        }
+        if (nums[nums.size() - 1 - i] > min.top())
+            min.push(nums[nums.size() - 1 - i]);
+        else
+            startIndex = i;
     }
 
-    vector<int> answerVector(answer.size());
-
-    while (answer.size() > 0) {
-        answerVector[answer.size() - 1] = answer.top();
-        answer.pop();
-    }
-
-    return answerVector;
+    return endIndex <= startIndex ? 0 : endIndex - startIndex + 1;
 }
-
-
 int main()
 {
-    vector<int> v = { -2,1,1,-1 };
+    vector<int> v = { 2,6,4,8,10,9,15 };
 
-    asteroidCollision(v);
+    cout << findUnsortedSubarray(v);
 }

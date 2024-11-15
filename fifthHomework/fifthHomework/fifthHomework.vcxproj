@@ -128,10 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="checkIfBinaryTreeIsBinarySearchTree.cpp" />
-    <ClCompile Include="fifthHomework.cpp" />
+    <ClCompile Include="isThereAPathBetweenTwoNodes.cpp" />
     <ClCompile Include="verticalSumsBinaryTree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

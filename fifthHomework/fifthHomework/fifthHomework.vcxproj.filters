@@ -15,17 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fifthHomework.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="verticalSumsBinaryTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="checkIfBinaryTreeIsBinarySearchTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="isThereAPathBetweenTwoNodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="TreeNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>

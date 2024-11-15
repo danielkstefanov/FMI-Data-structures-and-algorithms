@@ -1,11 +1,13 @@
 #pragma once
+#include <vector>
+
+using namespace std;
 
 struct TreeNode
 {
-	int data;
+    int index;
 
-	TreeNode* left = nullptr;
-	TreeNode* right = nullptr;
+    vector<TreeNode*> children;
 
-	TreeNode(int data) : data(data) {};
+    TreeNode(int index) :index(index) {};
 };

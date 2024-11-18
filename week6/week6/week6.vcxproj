@@ -129,12 +129,19 @@
   <ItemGroup>
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
+    <ClCompile Include="DeleteNode.cpp" />
+    <ClCompile Include="isSameTree.cpp" />
+    <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="MaximumDepthOfBinaryTree.cpp" />
+    <ClCompile Include="MergeSimilarItems.cpp" />
     <ClCompile Include="MyCalendarI.cpp" />
+    <ClCompile Include="RangeSumOfBST.cpp" />
     <ClCompile Include="rightSideView.cpp" />
+    <ClCompile Include="TrimBST.cpp" />
     <ClCompile Include="week6.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="KeyValueTreeNode.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

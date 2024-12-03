@@ -1,60 +1,56 @@
 #include <iostream>
 #include <list>
 #include <unordered_map>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-
-vector<int> readCardboards(int cardboardsCount)
+int longestCommonSubstring(const string& first, const string& second)
 {
-	vector<int> cardboards;
+	vector<vector<int>> dp(second.length(), vector<int>(first.length(), 0));
+	int max_length = 0;
 
-	for (int i = 1; i <= cardboardsCount; i++)
+	for (size_t i = 0; i < first.length(); i++)
 	{
-		int current;
-		cin >> current;
-		cardboards.push_back(current);
+		if (first[i] == second[0])
+		{
+			dp[0][i] = 1;
+			max_length = 1;
+		}
 	}
 
-	return cardboards;
-}
-
-
-pair<int, int> validCardboardIndeces(int kilosWanted, const vector<int>& weights)
-{
-	unordered_map<int, int> weightsMap;
-
-	for (size_t i = 0; i < weights.size(); i++)
+	for (size_t i = 0; i < second.length(); i++)
 	{
-		int current = weights[i];
-		int complement = kilosWanted - current;
-
-		if (weightsMap.count(complement))
-			return { i+1,weightsMap[complement] + 1};
-
-		weightsMap.insert({current,i});
+		if (second[i] == first[0])
+		{
+			dp[i][0] = 1;
+			max_length = 1;
+		}
 	}
 
-	return { -1,-1 };
+	for (size_t i = 1; i < first.length(); i++)
+	{
+		for (size_t j = 1; j < second.length(); j++)
+		{
+			if (first[i] == second[j])
+			{
+				dp[i][j] = dp[i - 1][j - 1] + 1;
+				max_length = max(max_length, dp[i][j]);
+			}
+		}
+	}
+
+	return max_length;
 }
 
 int main()
 {
-	int T;
-	cin >> T;
+	string first;
+	cin >> first;
 
-	for (size_t i = 0; i < T; i++)
-	{
-		int kilosWanted, cardboardsCount;
-		cin >> kilosWanted >> cardboardsCount;
-		vector<int> cardboards = readCardboards(cardboardsCount);
+	string second;
+	cin >> second;
 
-		pair<int, int> validPositions = validCardboardIndeces(kilosWanted, cardboards);
-
-		if (validPositions.first < validPositions.second)
-			cout << validPositions.first << " " << validPositions.second << endl;
-		else
-			cout << validPositions.second << " " << validPositions.first << endl;
-
-	}
+	cout << longestCommonSubstring(first, second);
 }

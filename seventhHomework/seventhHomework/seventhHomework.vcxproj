@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="positionsWithKSum.cpp" />
     <ClCompile Include="seventhHomework.cpp" />
     <ClCompile Include="subarraysWithMedium.cpp" />
     <ClCompile Include="Subsequence.cpp" />

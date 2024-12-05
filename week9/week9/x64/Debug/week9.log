@@ -1,0 +1,15 @@
+﻿  findRelativeRanks.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\utility(247,54): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ]
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week9\week9\findRelativeRanks.cpp(13,11): message : see reference to function template instantiation 'std::pair<int,int>::pair<_Ty&,size_t&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Ty=int,
+              _Other1=int &,
+              _Other2=size_t &
+          ]
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week9\week9\findRelativeRanks.cpp(13,10): message : see the first reference to 'std::pair<int,int>::pair' in 'findRelativeRanks'
+  week9.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week9\x64\Debug\week9.exe

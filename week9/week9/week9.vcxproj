@@ -127,13 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bakeryShopRequests.cpp" />
     <ClCompile Include="findKthLargest.cpp" />
     <ClCompile Include="findKthLargestFromStream.cpp" />
     <ClCompile Include="findRelativeRanks.cpp" />
     <ClCompile Include="kClosestPoints.cpp" />
     <ClCompile Include="maxKElements.cpp" />
+    <ClCompile Include="medianFinder.cpp" />
     <ClCompile Include="stones.cpp" />
-    <ClCompile Include="week9.cpp" />
+    <ClCompile Include="taskScheduler.cpp" />
+    <ClCompile Include="unoccupiedChairs.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

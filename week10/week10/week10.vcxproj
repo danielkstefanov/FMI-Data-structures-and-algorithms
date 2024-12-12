@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="canVisitAllRooms.cpp" />
     <ClCompile Include="cloneGraph.cpp" />
     <ClCompile Include="connectionComponents.cpp" />
     <ClCompile Include="courseSchedule.cpp" />
+    <ClCompile Include="findCenterOfStarGraph.cpp" />
     <ClCompile Include="hasCycle.cpp" />
+    <ClCompile Include="isThereAPath.cpp" />
     <ClCompile Include="shortestReach.cpp" />
     <ClCompile Include="townJudge.cpp" />
     <ClCompile Include="week10.cpp" />

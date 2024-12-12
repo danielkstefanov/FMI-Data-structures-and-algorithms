@@ -42,7 +42,7 @@ int bfs(unordered_map<int, unordered_set<int>>& graph, vector<int>& groups, int 
 	return INT_MAX;
 }
 
-int main()
+void shortestPathToFriendInGroup()
 {
 	int nodes, edges, start, end, group;
 	cin >> nodes >> edges;

@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ninthHomework.cpp" />
+    <ClCompile Include="alphabetOrder.cpp" />
     <ClCompile Include="shortestPathToFriendByGroup.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

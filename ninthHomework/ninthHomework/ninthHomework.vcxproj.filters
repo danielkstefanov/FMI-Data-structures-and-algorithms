@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ninthHomework.cpp">
+    <ClCompile Include="shortestPathToFriendByGroup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shortestPathToFriendByGroup.cpp">
+    <ClCompile Include="alphabetOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

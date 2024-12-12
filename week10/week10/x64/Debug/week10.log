@@ -1,6 +1,2 @@
-﻿  connectionComponents.cpp
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week10\week10\connectionComponents.cpp(20,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  shortestReach.cpp
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week10\week10\shortestReach.cpp(27,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
+﻿  courseSchedule.cpp
   week10.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week10\x64\Debug\week10.exe

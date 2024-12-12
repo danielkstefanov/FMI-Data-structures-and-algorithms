@@ -38,7 +38,7 @@ void bfs(vector<bool>& visited, unordered_map<int, unordered_set<int>>& graph, i
 	}
 }
 
-int main()
+void connectionComponentsCount()
 {
 	int tests, nodes, edges, x, y;
 	cin >> tests;
@@ -69,5 +69,4 @@ int main()
 
 		cout << components << " ";
 	}
-	return 0;
 }

@@ -27,5 +27,14 @@
     <ClCompile Include="connectionComponents.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hasCycle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="courseSchedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cloneGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

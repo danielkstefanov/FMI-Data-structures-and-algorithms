@@ -1,0 +1,4 @@
+﻿  shortestPathToFriendByGroup.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\ninthHomework\ninthHomework\shortestPathToFriendByGroup.cpp(19,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\ninthHomework\ninthHomework\shortestPathToFriendByGroup.cpp(70,52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ninthHomework.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\ninthHomework\x64\Debug\ninthHomework.exe

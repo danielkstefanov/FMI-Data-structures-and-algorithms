@@ -41,7 +41,7 @@ struct RequestMaxComparerByDuration {
 };
 
 
-void bakeryShop() {
+int main() {
 
 	int N;
 	cin >> N;

@@ -45,5 +45,17 @@
     <ClCompile Include="canVisitAllRooms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AllPathsFromSourceToTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="numberOfProvinces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="santaHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edgeRemoval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

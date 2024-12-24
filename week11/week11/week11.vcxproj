@@ -128,11 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dijkstra.cpp" />
+    <ClCompile Include="get_watched_videos.cpp" />
     <ClCompile Include="long_long.cpp" />
     <ClCompile Include="network_delay_time.cpp" />
     <ClCompile Include="path_with_maximum_probability.cpp" />
     <ClCompile Include="path_with_minimum_efford.cpp" />
+    <ClCompile Include="shortest_paths.cpp" />
     <ClCompile Include="shortest_path_with_len_k.cpp" />
+    <ClCompile Include="two_sets.cpp" />
     <ClCompile Include="week11.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

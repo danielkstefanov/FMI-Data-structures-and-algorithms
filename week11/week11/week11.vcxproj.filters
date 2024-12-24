@@ -36,5 +36,14 @@
     <ClCompile Include="path_with_minimum_efford.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="get_watched_videos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shortest_paths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="two_sets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

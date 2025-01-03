@@ -1,0 +1,5 @@
+﻿  breakout.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\tenthHomework\tenthHomework\breakout.cpp(48,90): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\tenthHomework\tenthHomework\breakout.cpp(83,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\tenthHomework\tenthHomework\breakout.cpp(83,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  tenthHomework.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\tenthHomework\x64\Debug\tenthHomework.exe

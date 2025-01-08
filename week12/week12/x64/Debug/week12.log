@@ -1,0 +1,4 @@
+﻿  min_cost_to_connect_points.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\min_cost_to_connect_points.cpp(34,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\min_cost_to_connect_points.cpp(66,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  week12.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\x64\Debug\week12.exe

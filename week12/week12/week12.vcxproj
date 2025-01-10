@@ -130,6 +130,9 @@
     <ClCompile Include="kruskal_algorithm_slow.cpp" />
     <ClCompile Include="min_cost_to_connect_points.cpp" />
     <ClCompile Include="prims_algorithm_slow.cpp" />
+    <ClCompile Include="roads_in_hackerland.cpp" />
+    <ClCompile Include="snow_road_cleaning.cpp" />
+    <ClCompile Include="speed_rules.cpp" />
     <ClCompile Include="UnionFind.cpp" />
   </ItemGroup>
   <ItemGroup>

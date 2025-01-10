@@ -20,7 +20,7 @@ struct Edge
 
 int prims(int n, vector<vector<int>> edges, int start) {
 
-	std::unordered_map<int, std::vector<Edge>> graph;
+	unordered_map<int, vector<Edge>> graph;
 
 	for (int i = 0; i < edges.size(); i++)
 	{

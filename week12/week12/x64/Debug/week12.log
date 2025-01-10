@@ -1,4 +1,12 @@
-﻿  min_cost_to_connect_points.cpp
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\min_cost_to_connect_points.cpp(34,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\min_cost_to_connect_points.cpp(66,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  week12.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\x64\Debug\week12.exe
+﻿  kruskal_algorithm_slow.cpp
+  min_cost_to_connect_points.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\min_cost_to_connect_points.cpp(68,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  prims_algorithm_slow.cpp
+  roads_in_hackerland.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\roads_in_hackerland.cpp(87,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  snow_road_cleaning.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\week12\snow_road_cleaning.cpp(85,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  speed_rules.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1127,5): error MSB6006: "link.exe" exited with code 1168.
+LINK : fatal error LNK1168: cannot open C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\week12\x64\Debug\week12.exe for writing

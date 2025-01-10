@@ -27,6 +27,15 @@
     <ClCompile Include="min_cost_to_connect_points.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="snow_road_cleaning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roads_in_hackerland.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="speed_rules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UnionFind.h">

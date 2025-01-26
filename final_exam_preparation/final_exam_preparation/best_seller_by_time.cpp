@@ -22,7 +22,7 @@ struct MinTimeSellComparator
 };
 
 
-int main()
+void best_sellers()
 {
 	int sells_count, current_product_id, sell_time;
 	cin >> sells_count;

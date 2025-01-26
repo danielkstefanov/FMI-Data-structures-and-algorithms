@@ -1,14 +1,10 @@
-﻿  best_seller_by_time.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\utility(247,54): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+﻿  pancakes.cpp
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\final_exam_preparation\pancakes.cpp(23,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\final_exam_preparation\pancakes.cpp(31,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\final_exam_preparation\pancakes.cpp(62,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\final_exam_preparation\pancakes.cpp(65,21): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
           with
           [
-              _Ty2=int
+              _Ty=int
           ]
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\final_exam_preparation\best_seller_by_time.cpp(45,21): message : see reference to function template instantiation 'std::pair<int,int>::pair<int&,size_t&,0>(_Other1,_Other2) noexcept' being compiled
-          with
-          [
-              _Other1=int &,
-              _Other2=size_t &
-          ]
-C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\final_exam_preparation\best_seller_by_time.cpp(45,20): message : see the first reference to 'std::pair<int,int>::pair' in 'main'
   final_exam_preparation.vcxproj -> C:\Users\danie\source\repos\FMI-Data-structures-and-algorithms\final_exam_preparation\x64\Debug\final_exam_preparation.exe

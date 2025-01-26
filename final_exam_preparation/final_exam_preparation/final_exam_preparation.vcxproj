@@ -130,13 +130,20 @@
     <ClCompile Include="best_seller_by_time.cpp" />
     <ClCompile Include="birthday_party.cpp" />
     <ClCompile Include="brothers_fight.cpp" />
+    <ClCompile Include="cheapest_road.cpp" />
+    <ClCompile Include="childrens_sum.cpp" />
     <ClCompile Include="closest_element.cpp" />
     <ClCompile Include="color_tree.cpp" />
     <ClCompile Include="components_with_size_divisible_by_k.cpp" />
+    <ClCompile Include="linked_list_numbers_sum.cpp" />
     <ClCompile Include="list_ADT.cpp" />
+    <ClCompile Include="maximum_path_in_matrix.cpp" />
+    <ClCompile Include="pancakes.cpp" />
     <ClCompile Include="searching_algorithms.cpp" />
+    <ClCompile Include="shortest_routes_to_colleagues.cpp" />
     <ClCompile Include="sorting_algorithms.cpp" />
     <ClCompile Include="stack_and_queue.cpp" />
+    <ClCompile Include="unique_rows.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -30,9 +30,6 @@
     <ClCompile Include="closest_element.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="color_tree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="brothers_fight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -64,6 +61,30 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="childrens_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cycles_in_graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="road_check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bellman_ford.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kruskal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cutting_edges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coloring_tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

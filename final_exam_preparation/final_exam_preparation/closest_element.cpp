@@ -8,33 +8,34 @@ void closest_element()
 {
     std::ios::sync_with_stdio(false);
     std::cin.tie(NULL);
-
     size_t N, x, Q;
     cin >> N;
     vector<size_t> arr(N);
     for (size_t i = 0; i < N; i++)
         cin >> arr[i];
 
-    sort(arr.begin(), arr.end());
     cin >> Q;
     for (size_t i = 0; i < Q; i++)
     {
         cin >> x;
-        auto it = upper_bound(arr.begin(), arr.end(), x);
-        if (it == arr.end())
+        auto right = lower_bound(arr.rbegin(), arr.rend(), x);
+
+        if (right == arr.rend())
         {
             cout << -1 << '\n';
             continue;
         }
 
-        size_t rightIndex = it - arr.begin();
-        size_t leftIndex = rightIndex - 1;
-
-        if (arr[rightIndex] - x <= x - arr[leftIndex])
+        if (right == arr.rbegin())
         {
-            cout << (arr[rightIndex + 1] == 0 ? -1 : (long long)arr[rightIndex + 1]) << '\n';
+            cout << (long long)*(right + 1) << '\n';
             continue;
         }
-        cout << arr[leftIndex + 1] << '\n';
+        auto left = right - 1;
+
+        if (*right - x <= x - *left)
+            cout << (long long)*(right+1) << '\n';
+        else
+            cout << *(left+1) << '\n';
     }
 }
